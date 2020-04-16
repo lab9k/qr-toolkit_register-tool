@@ -1,7 +1,13 @@
 import Vue from 'vue';
+import './plugins/axios';
+import Buefy from 'buefy';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
+
+import './assets/scss/app.scss';
+
+Vue.use(Buefy);
 
 Vue.config.productionTip = false;
 
